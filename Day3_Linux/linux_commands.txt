@@ -1,0 +1,1127 @@
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ pwd
+/d/Linux_Commands
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ mkdir  javeed
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ dir
+javeed
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ ls
+javeed/
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ ls -a
+./  ../  javeed/
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ cd  javeed/
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ touch file1
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat file1
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat file2
+cat: file2: No such file or directory
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ ls
+file1
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ rm file1
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ ls
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ touch  products.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ ls
+products.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  products.txt
+
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  > products.txt
+105   printer  3000
+106    charger  700
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  >>  products.txt
+106  mobile  45000
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat products.txt
+105   printer  3000
+106  mobile  45000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat > products.txt
+hello
+friends
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  products.txt
+hello
+friends
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ mv  products.txt   items.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cal
+bash: cal: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date
+Thu, Jan  9, 2025 11:33:42 AM
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%T"
+11:33:54
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%d %h"
+09 Jan
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%M %H"
+34 11
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%H %M"
+11 35
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%d %h"
+09 Jan
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%d %M"
+09 36
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%d %m"
+09 01
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%H %M %R"
+11 37 11:37
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date "+%R"
+11:38
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ lp
+bash: lp: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ nl items.txt
+     1  hello
+     2  friends
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ lp items.txt
+bash: lp: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat >> items.txt
+i am javeed
+from hyderabad
+thank you
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ nl items.txt
+     1  hello
+     2  friends
+     3  i am javeed
+     4  from hyderabad
+     5  thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ nl   -v101  items.txt
+   101  hello
+   102  friends
+   103  i am javeed
+   104  from hyderabad
+   105  thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ nl   -v101  -i5   items.txt
+   101  hello
+   106  friends
+   111  i am javeed
+   116  from hyderabad
+   121  thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ nl  -w2  -v101  -i5   items.txt
+101     hello
+106     friends
+111     i am javeed
+116     from hyderabad
+121     thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ nl  -w4  -v101  -i5   items.txt
+ 101    hello
+ 106    friends
+ 111    i am javeed
+ 116    from hyderabad
+ 121    thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ tty
+/dev/cons0
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ who
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ who am i
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  -n  items.txt
+     1  hello
+     2  friends
+     3  i am javeed
+     4  from hyderabad
+     5  thank you
+     6
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  -n  -v  items.txt
+     1  hello
+     2  friends
+     3  i am javeed
+     4  from hyderabad
+     5  thank you
+     6
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat    -v  items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat   >>  marks.txt
+500
+750
+300
+230
+430
+650
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat marks.txt
+500
+750
+300
+230
+430
+650
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat -E marks.txt
+500$
+750$
+300$
+230$
+430$
+650$
+$
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  items.txt   marks.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+500
+750
+300
+230
+430
+650
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cd ..
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ cd .
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ cd ..
+
+DELL@DESKTOP-CML02CA MINGW64 /d
+$ cd Linux_Commands/
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands
+$ cd javeed/
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cp items.txt   info.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cp i
+info.txt   items.txt
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cp items.txt   /d/drivers
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1241     879    1241      13572  cons0     197609 12:03:27 /usr/bin/ps
+      879       1     879      13332  cons0     197609 11:02:49 /usr/bin/bash
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1245     879    1245       6012  cons0     197609 12:04:50 /usr/bin/ps
+      879       1     879      13332  cons0     197609 11:02:49 /usr/bin/bash
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ head employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ head  -3 employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ tail  -4   employee.txt
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ tail  +4   employee.txt
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c104 employee.txt
+
+
+
+
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c1-4 employee.txt
+101
+102
+103
+104
+105
+106
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c1-3 employee.txt
+101
+102
+103
+104
+105
+106
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c5-10 employee.txt
+ king
+ tom
+ smith
+ ford
+ javee
+ scott
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c12-18  employee.txt
+ 50000
+ 45000
+ 30000
+ 25000
+ 20000
+  5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c1-3 , 12-18  employee.txt
+cut: ,: No such file or directory
+cut: 12-18: No such file or directory
+101
+102
+103
+104
+105
+106
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c1-3  12-18  employee.txt
+cut: 12-18: No such file or directory
+101
+102
+103
+104
+105
+106
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cut  -c1-3,12-18  employee.txt
+101 50000
+102 45000
+103 30000
+104 25000
+105 20000
+106  5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat >>  dept.txt
+10   development
+20   testing
+30    HR
+40    operation
+50    research
+60    sales
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat  dept.txt
+10   development
+20   testing
+30    HR
+40    operation
+50    research
+50    sales
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ paste  employee.txt  dept.txt
+101  kin10   development
+102  tom20   testing
+103  smi30    HR0
+104  for40    operation
+105  jav50    research
+106  scott   5000       50    sales
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ paste  employee.txt       |     dept.txt
+bash: dept.txt: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ paste  -d'|'       employee.txt       dept.txt
+|10   development
+|20   testing5000
+|30    HRh  30000
+|40    operation0
+|50    research00
+106  scott   5000|50    sales
+|
+|
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ paste  dept.txt   employee.txt
+10   development        101  king   50000
+20   testing    102  tom    45000
+30    HR        103  smith  30000
+40    operation 104  ford   25000
+50    research  105  javeed 20000
+50    sales     106  scott   5000
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ paste   items.txt        dept.txt
+hello   10   development
+friends 20   testing
+i am javeed     30    HR
+from hyderabad  40    operation
+thank you       50    research
+        50    sales
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort   items.txt
+
+friends
+from hyderabad
+hello
+i am javeed
+thank you
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort   items.txt
+
+friends
+from hyderabad
+hello
+i am javeed
+thank you
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -r employee.txt
+106  scott   5000
+105  javeed 20000
+104  ford   25000
+103  smith  30000
+102  tom    45000
+101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat >> items.txt
+HELLO
+FRIENDS
+THANK YOU
+
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat i
+info.txt   items.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+HELLO
+FRIENDS
+THANK YOU
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort items.txt
+
+
+
+friends
+FRIENDS
+from hyderabad
+hello
+HELLO
+i am javeed
+thank you
+THANK YOU
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -f  items.txt
+
+
+
+friends
+FRIENDS
+from hyderabad
+hello
+HELLO
+i am javeed
+thank you
+THANK YOU
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -t"|"  items.txt
+
+
+
+friends
+FRIENDS
+from hyderabad
+hello
+HELLO
+i am javeed
+thank you
+THANK YOU
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -t"|"+1  items.txt
+sort: multi-character tab ‘|+1’
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort    items.txt
+
+
+
+friends
+FRIENDS
+from hyderabad
+hello
+HELLO
+i am javeed
+thank you
+THANK YOU
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort   -t"|" employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -k1,3  employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -k5,10  employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -k1  employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -k3  employee.txt
+102  tom    45000
+104  ford   25000
+106  scott   5000
+101  king   50000
+103  smith  30000
+105  javeed 20000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -k3,3  employee.txt
+102  tom    45000
+104  ford   25000
+106  scott   5000
+101  king   50000
+103  smith  30000
+105  javeed 20000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ uniq    items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+HELLO
+FRIENDS
+THANK YOU
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat >> items.txt
+hello
+thank
+
+
+t
+han
+
+THANK YOU
+
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat i
+info.txt   items.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+HELLO
+FRIENDS
+THANK YOU
+
+
+hello
+thank
+
+
+t
+han
+
+THANK YOU
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ uniq  items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+HELLO
+FRIENDS
+THANK YOU
+
+hello
+thank
+
+t
+han
+
+THANK YOU
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ uniq   -u  items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+HELLO
+FRIENDS
+THANK YOU
+hello
+thank
+t
+han
+
+THANK YOU
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ uniq -c  items.txt
+      1 hello
+      1 friends
+      1 i am javeed
+      1 from hyderabad
+      1 thank you
+      1
+      1 HELLO
+      1 FRIENDS
+      1 THANK YOU
+      2
+      1 hello
+      1 thank
+      2
+      1 t
+      1 han
+      1
+      1 THANK YOU
+      2
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ uniq -c  employee.txt
+      1 101  king   50000
+      1 102  tom    45000
+      1 103  smith  30000
+      1 104  ford   25000
+      1 105  javeed 20000
+      1 106  scott   5000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ uniq -c  employee.txt
+      1 101  king   50000
+      1 102  tom    45000
+      1 103  smith  30000
+      1 104  ford   25000
+      1 105  javeed 20000
+      1 106  scott   5000
+      1
+      1 101  king   50000
+      1 102  tom    45000
+      1 103  smith  30000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ uniq -d  employee.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cal
+bash: cal: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date
+Thu, Jan  9, 2025 12:45:02 PM
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ date  |  cat >>  mydate
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ sort  -r  employee.txt   |   cat >> mydate
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ find  employee.txt
+employee.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ find    *.txt
+dept.txt
+employee.txt
+info.txt
+items.txt
+marks.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ find   /d/drivers    *.txt
+/d/drivers
+/d/drivers/01. Problem Solving and DS
+/d/drivers/01. Problem Solving and DS/Problem Solving Techniques and Data Structures.pdf
+/d/drivers/items.txt
+/d/drivers/OneDrive_2024-09-23.zip
+dept.txt
+employee.txt
+info.txt
+items.txt
+marks.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ find   /d/drivers    items.txt
+/d/drivers
+/d/drivers/01. Problem Solving and DS
+/d/drivers/01. Problem Solving and DS/Problem Solving Techniques and Data Structures.pdf
+/d/drivers/items.txt
+/d/drivers/OneDrive_2024-09-23.zip
+items.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ find   /d/drivers/items.txt
+/d/drivers/items.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+
+101  king   50000
+102  tom    45000
+103  smith  30000
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  'king'  employee.txt
+101  king   50000
+101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  'king'  employee.txt
+1:101  king   50000
+8:101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -w  'king'  employee.txt
+101  king   50000
+101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  'ki'  employee.txt
+1:101  king   50000
+8:101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  -w 'ki'  employee.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  -w 'king'  employee.txt
+1:101  king   50000
+8:101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  -w '101'  employee.txt
+1:101  king   50000
+8:101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  -w '01'  employee.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  's'  employee.txt
+3:103  smith  30000
+6:106  scott   5000
+10:103  smith  30000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  '4'  employee.txt
+2:102  tom    45000
+4:104  ford   25000
+9:102  tom    45000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  'KING'  employee.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n -i  'KING'  employee.txt
+1:101  king   50000
+8:101  king   50000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  '^s'  employee.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  '^105'  employee.txt
+5:105  javeed 20000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  '^h'  items.txt
+1:hello
+12:hello
+17:han
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep  -n  'u$'  items.txt
+5:thank you
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat >>  items.txt
+^hello
+5000$
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ cat items.txt
+hello
+friends
+i am javeed
+from hyderabad
+thank you
+
+HELLO
+FRIENDS
+THANK YOU
+
+
+hello
+thank
+
+
+t
+han
+
+THANK YOU
+
+
+^hello
+5000$
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '^hello'  items.txt
+hello
+hello
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '^^hello'  items.txt
+^hello
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '\^hello'  items.txt
+^hello
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '[Hh]ello'  items.txt
+hello
+hello
+^hello
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '^$'  items.txt
+
+
+
+
+
+
+
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '[0-9][0-9][0-9]'   employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+101  king   50000
+102  tom    45000
+103  smith  30000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '[0-9][0-9][0-9][0-9]'   employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+101  king   50000
+102  tom    45000
+103  smith  30000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '[0-9]'   employee.txt
+101  king   50000
+102  tom    45000
+103  smith  30000
+104  ford   25000
+105  javeed 20000
+106  scott   5000
+101  king   50000
+102  tom    45000
+103  smith  30000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/javeed
+$ grep   '[0-9]'   items.txt
+5000$
