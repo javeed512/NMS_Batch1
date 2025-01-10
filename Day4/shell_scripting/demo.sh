@@ -1,0 +1,7 @@
+echo "welcome friends"
+
+date
+
+
+
+
