@@ -2,7 +2,7 @@
 Corelated Subquery:
 
 Sub query used in Create for creating tables.
-Sub qury  used in  update or delete statements 
+Sub query  used in  update or delete statements 
 known as corelated sub query.
 
 
